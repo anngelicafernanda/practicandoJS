@@ -1,13 +1,13 @@
-let max = 0;
+let numMax = 0;
 
-const maxValue = (arrayNumbers, max) => {
+const maxValue = (arrayNumbers, numMax) => {
 	for (let index = 0; index < arrayNumbers.length; index++) {
 		const element = arrayNumbers[index];
-		if (element > max) {
-			max = element;
+		if (element > numMax) {
+			numMax = element;
 		}
 	}
-	return max;
+	return numMax;
 };
 
 const Validar = () => {
@@ -18,6 +18,6 @@ const Validar = () => {
 	}
 	return (document.getElementById('result').innerHTML = maxValue(
 		arrayGuardar,
-		max,
+		numMax,
 	));
 };
