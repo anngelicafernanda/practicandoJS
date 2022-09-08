@@ -9,4 +9,4 @@
 - Si la condición anterior es verdadera, asigna el valor de la posición actual del array a la variable máxima.
 - Imprime el número más grande del array.
 
-![adem-ay-Tk9m_HP4rgQ-unsplash](https://github.com/anngelicafernanda/SCL020-social-network/blob/f1cc3327a5322a4e131e05292dde85abcbd6d6ae/Readme_Images/1.png)
+![adem-ay-Tk9m_HP4rgQ-unsplash](https://github.com/anngelicafernanda/practicandoJS/blob/ae08e511edbeed2a307c07b2952cc0b2539178ce/img/Diagrama_de_flujo_Valor_Maximo.png)
