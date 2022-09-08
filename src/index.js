@@ -16,5 +16,8 @@ const Validar = () => {
 	for (var i = 0; i < lstNumero.length; i++) {
 		arrayGuardar[i] = lstNumero[i].valueAsNumber;
 	}
-	document.getElementById('result').innerHTML = maxValue(arrayGuardar, max);
+	return (document.getElementById('result').innerHTML = maxValue(
+		arrayGuardar,
+		max,
+	));
 };
