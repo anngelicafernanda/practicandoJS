@@ -1,4 +1,3 @@
-const arrayNumbers = [11, 4, 6, 7, 8, 4];
 let max = 0;
 
 const maxValue = (arrayNumbers, max) => {
@@ -11,4 +10,11 @@ const maxValue = (arrayNumbers, max) => {
 	return max;
 };
 
-console.log(maxValue(arrayNumbers, max));
+const Validar = () => {
+	let lstNumero = document.getElementsByClassName('numero'),
+		arrayGuardar = [];
+	for (var i = 0; i < lstNumero.length; i++) {
+		arrayGuardar[i] = lstNumero[i].valueAsNumber;
+	}
+	document.getElementById('result').innerHTML = maxValue(arrayGuardar, max);
+};
